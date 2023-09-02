@@ -1,0 +1,30 @@
+
+state={
+	id=909
+	name="BayrischesRhinland"
+	manpower = 25081
+
+	state_category = city
+
+	history={
+		owner = BAY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+
+		add_core_of = BAY
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+			}
+		}
+	}
+
+	provinces={
+	    563 3558 11547 11560 
+	}
+
+	local_supplies=0.0 
+}
