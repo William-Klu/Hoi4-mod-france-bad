@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+}
