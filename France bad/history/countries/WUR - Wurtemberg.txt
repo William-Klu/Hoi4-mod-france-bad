@@ -1,4 +1,4 @@
-﻿capital = 52
+﻿capital = 50
 
 # Starting tech
 set_technology = {
@@ -11,8 +11,6 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-
-	naval_bomber1 = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -20,7 +18,6 @@ set_technology = {
 	synth_oil_experiments = 1
 	oil_processing = 1
 	fuel_refining = 1
-	
 }
 if = {
 	limit = {
@@ -33,14 +30,12 @@ if = {
 		tactical_bomber1 = 1
 		strategic_bomber1 = 1
 		CAS1 = 1
+		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
 		gwtank = 1
@@ -51,9 +46,7 @@ if = {
 }
 if = {
 	limit = {
-		
 		has_dlc = "No Step Back"
-		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -83,7 +76,8 @@ if = {
 
 
 set_research_slots = 3
-set_stability = 0.81
+set_convoys = 50
+set_stability = 0.75
 
 1939.1.1 = {
 
@@ -95,6 +89,8 @@ set_stability = 0.81
 	
 
 	set_technology = {
+		improved_light_tank = 1 
+		basic_medium_tank = 1 
 		CAS2 = 1
 		heavy_fighter1 = 1
 		interwar_artillery = 1
@@ -145,7 +141,6 @@ set_stability = 0.81
 	}
 }
 
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1900.1.1"
@@ -154,13 +149,14 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 6
+	neutrality = 64
+	democratic = 20
 	fascism = 0
-	communism = 15
-	neutrality=79
+	communism = 16
 }
 
-#add_ideas = {}
+add_ideas = {
+}
 
 
 
@@ -171,6 +167,32 @@ set_popularities = {
 #	expire = "1965.1.1"
 #	ideology = conservatism
 #	traits = {
+#	}
+#}
+#
+
+#create_country_leader = {
+#	name = "Otto Wels"
+#	desc = "POLITICS_OTTO_WELS_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1939.1.16"
+#	ideology = socialism
+#	traits = {
+#		exiled
+#		union_man
+#	}
+#}
+#
+#create_country_leader = {
+#	name = "Ernst Thälmann"
+#	desc = "POLITICS_ERNST_THALMANN_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1956.1.1"
+#	ideology = stalinism
+#	traits = {
+#		assassination_survivor
+#		stalins_puppet
+#		political_prisoner
 #	}
 #}
 
