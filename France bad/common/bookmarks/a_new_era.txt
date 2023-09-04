@@ -1,0 +1,25 @@
+bookmarks = {
+	bookmark = {
+		name = "A_NEW_ERA_NAME"
+		desc = "A_NEW_ERA_DESC"
+		date = 1900.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "BAY"
+		default = yes
+		
+		"BAY"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {}
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+	    }
+		effect = {
+			randomize_weather = 12345
+		}
+	}   
+}
