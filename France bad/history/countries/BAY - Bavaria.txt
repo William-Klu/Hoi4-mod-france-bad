@@ -160,8 +160,7 @@ set_popularities = {
 	neutrality=79
 }
 
-add_ideas = {
-}
+#add_ideas = {}
 
 
 
